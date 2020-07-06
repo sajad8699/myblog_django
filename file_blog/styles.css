@@ -1,3 +1,20 @@
 body {
-background-color: red;
+ background-color: #83fca6;
+ background-image: url(/static/stars.jpg);
+ background-repeat-y:no-repeat;
+ background-attachment: fixed;
+ color:#22465f;
+}
+body *{
+  font-family:arial;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight:normal;
+  margin:0;
+}
+
+a,a:hover,a:visited{
+  color:#4c4092;
+  text-decoration:none;
 }
