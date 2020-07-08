@@ -3,7 +3,7 @@ body {
  background-image: url(/static/stars.jpg);
  background-repeat-y:no-repeat;
  background-attachment: fixed;
- color:#22465f;
+ color:#c2ffff;
 }
 body *{
   font-family:arial;
@@ -15,6 +15,6 @@ h1,h2,h3,h4,h5{
 }
 
 a,a:hover,a:visited{
-  color:#4c4092;
+  color:#94ff8a;
   text-decoration:none;
 }
