@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <h2><a href="{% url 'articles:list' %}">LOGO</a></h2>
+      <h2><a class="logo-button" href="{% url 'articles:list' %}">LOGO</a></h2>
       <nav>
         <ul>
           {% if user.is_authenticated %}
@@ -23,14 +23,14 @@
             </form>
           </li>
           <li>
-            <a href="{% url 'articles:create' %}">create new article</a>
+            <a class="highlight" href="{% url 'articles:create' %}">create new article</a>
           </li>
           {% else %}
           <li>
-            <a href="{% url 'accounts:login' %}">login</a>
+            <a class="login-button" href="{% url 'accounts:login' %}">login</a>
           </li>
           <li>
-            <a href="{% url 'accounts:signup' %}">signup</a>
+            <a class="signup-button" href="{% url 'accounts:signup' %}">signup</a>
           </li>
 
           {% endif %}
