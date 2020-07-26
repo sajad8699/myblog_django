@@ -3,7 +3,7 @@ body {
  background-image: url(/static/stars.jpg);
  background-repeat-y:no-repeat;
  background-attachment: fixed;
- color:#c2ffff;
+ color:#000;
 }
 body *{
   font-family:arial;
@@ -15,7 +15,8 @@ h1,h2,h3,h4,h5{
 }
 
 a,a:hover,a:visited{
-  color:#94ff8a;
+  font-size:1.2em;
+  color:#000;
   text-decoration:none;
 }
 .wrapper{
@@ -52,7 +53,7 @@ nav button{
 }
 .article{
   padding:10px;
-  border:1px solid #00dba0;
+  border:1.2px solid #082f77;
   position:relative;
   padding-bottom:40px;
 }
@@ -61,12 +62,12 @@ nav button{
 }
 .article .author{
   padding:10px;
-  background-color:#00dba1;
+  background-color:#33f7f4;
   position:absolute;
   right:0px;
   bottom:0;
   margin:0;
-  color:#0f121f
+  color:#000;
 }
 .article_detail .article{
   padding:0;
@@ -83,7 +84,7 @@ nav button{
 }
 .site-form{
   margin-top:60px;
-  border:1px solid #4eccd7;
+  border:2px solid #22465f;
   padding:20px;
 }
 .site-form input,.site-form textarea{
@@ -123,7 +124,7 @@ a.signup-button{
 }
 .helptext,.helptext ul{
   margin:0 auto 20px;
-  color:#e6ffff;
+  color:#000;
   font-size:0.9em;
   display:block;
 }
